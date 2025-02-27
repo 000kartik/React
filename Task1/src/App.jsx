@@ -11,6 +11,8 @@ const App = () => {
   const[songImage,setsongImage] = useState('')
   const [alldata, setalldata] = useState([])
   
+
+  //for submit the form
   const submiteHandler = (e)=>{
     e.preventDefault()
 
@@ -19,7 +21,6 @@ const App = () => {
     copysongs.push({songArtist, songImage, songalbum, songname})
     setalldata(copysongs)
    
-
     setsongImage('')
     setsongalbum('')
     setsongname('')
