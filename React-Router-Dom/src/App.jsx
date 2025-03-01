@@ -16,6 +16,9 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/product' element={<Product/>} />
         <Route path='/contect' element={<Contect/>} />
+          {/* daynamic routeing , nested routeing */}
+        
+
       </Routes>
 
     </div>
